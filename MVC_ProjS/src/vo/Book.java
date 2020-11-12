@@ -1,78 +1,80 @@
 package vo;
 
+import java.sql.Timestamp;
+
 public class Book {
-	    private String title;
-	    private String link;
-	    private String image;
-	    private String author;
-	    private String price;
-	    private String discount;
-	    private String publisher;
-	    private String pubdate;
-	    private String isbn;
-	    private String description;
-	    public String getTitle() {
-	        return title;
-	    }
-	    public void setTitle(String title) {
-	        this.title = title;
-	    }
-	    public String getLink() {
-	        return link;
-	    }
-	    public void setLink(String link) {
-	        this.link = link;
-	    }
-	    public String getImage() {
-	        return image;
-	    }
-	    public void setImage(String image) {
-	        this.image = image;
-	    }
-	    public String getAuthor() {
-	        return author;
-	    }
-	    public void setAuthor(String author) {
-	        this.author = author;
-	    }
-	    public String getPrice() {
-	        return price;
-	    }
-	    public void setPrice(String price) {
-	        this.price = price;
-	    }
-	    public String getDiscount() {
-	        return discount;
-	    }
-	    public void setDiscount(String discount) {
-	        this.discount = discount;
-	    }
-	    public String getPublisher() {
-	        return publisher;
-	    }
-	    public void setPublisher(String publisher) {
-	        this.publisher = publisher;
-	    }
-	    public String getPubdate() {
-	        return pubdate;
-	    }
-	    public void setPubdate(String pubdate) {
-	        this.pubdate = pubdate;
-	    }
-	    public String getIsbn() {
-	        return isbn;
-	    }
-	    public void setIsbn(String isbn) {
-	        this.isbn = isbn;
-	    }
-	    public String getDescription() {
-	        return description;
-	    }
-	    public void setDescription(String description) {
-	        this.description = description;
-	    }
-	   
-	    
+	private int num;
+	private String title;
+	private String writer;
+	private String pw;
+	private String content;
+	private Timestamp date;
+	private Timestamp modifyDate;
+	private int  readcount;
+	private int startPage;
+	private int endPage;
+
+	public int getNum() {
+		return num;
+	}
+	public void setNum(int num) {
+		this.num = num;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getWriter() {
+		return writer;
+	}
+	public void setWriter(String writer) {
+		this.writer = writer;
+	}
+	public String getPw() {
+		return pw;
+	}
+	public void setPw(String pw) {
+		this.pw = pw;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public Timestamp getDate() {
+		return date;
+	}
+	public void setDate(Timestamp date) {
+		this.date = date;
+	}
+	public Timestamp getModifyDate() {
+		return modifyDate;
+	}
+	public void setModifyDate(Timestamp modifyDate) {
+		this.modifyDate = modifyDate;
+	}
+	public int getReadcount() {
+		return readcount;
+	}
+	public void setReadcount(int readcount) {
+		this.readcount = readcount;
+	}
+	public int getStartPage() {
+		return startPage;
+	}
+	public void setStartPage(int startPage) {
+		this.startPage = startPage;
+	}
+	public int getEndPage() {
+		return endPage;
+	}
+	public void setEndPage(int endPage) {
+		this.endPage = endPage;
+	}
+	
 	    
 
 }
