@@ -2,7 +2,7 @@ package vo;
 
 import java.sql.Timestamp;
 
-public class Book {
+public class boardDTO {
 	private int num;
 	private String title;
 	private String writer;
