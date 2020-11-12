@@ -23,15 +23,15 @@ public class BoardFrontController extends HttpServlet {
 		Action action = null;
 		response.setCharacterEncoding("UTF-8");
 		
-		if(commend.equals("boardList.bo")) {
+		if(commend.equals("boardList.do")) {
 			
-		}else if(commend.equals("boardList.bo")) {
+		}else if(commend.equals("boardList.do")) {
 			
-		}else if(commend.equals("boardWrite.bo")) {
+		}else if(commend.equals("boardWrite.do")) {
 			
-		}else if(commend.equals("boardDelete.bo")) {
+		}else if(commend.equals("boardDelete.do")) {
 			
-		}else if(commend.equals("boardModify.bo")) {
+		}else if(commend.equals("boardModify.do")) {
 			
 		}
 		
